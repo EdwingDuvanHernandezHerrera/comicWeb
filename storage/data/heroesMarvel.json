@@ -1,0 +1,108 @@
+[
+    {
+        "id": "0001",
+        "nombre": "Death",
+        "fecha": "1963-03-01",
+        "imagen": "https://cdn.marvel.com/content/1x/359dth_com_crd_01.png",
+        "descrip": "Tony Stark, un genio multimillonario, crea una armadura tecnológica para luchar contra el crimen como Iron Man."
+    },
+    {
+        "id": "0002",
+        "nombre": "Spider-Man",
+        "fecha": "1962-08-01",
+        "imagen": "https://cdn.marvel.com/content/1x/spidey03_ons_var_dsk_01.jpg",
+        "descrip": "Peter Parker adquiere habilidades de una araña radiactiva y se convierte en el amigable vecino Spider-Man."
+    },
+    {
+        "id": "0003",
+        "nombre": "Black Widow",
+        "fecha": "1964-04-01",
+        "imagen": "https://static.wikia.nocookie.net/character-level/images/9/9a/QDNpnla.png/revision/latest?cb=20190528001733",
+        "descrip": "Natasha Romanoff, también conocida como Black Widow, es una espía y experta en combate cuerpo a cuerpo."
+    },
+    {
+        "id": "0004",
+        "nombre": "Captain America",
+        "fecha": "1941-03-01",
+        "imagen": "https://e7.pngegg.com/pngimages/821/630/png-clipart-captain-america-s-shield-marvel-comics-comic-book-captain-america-marvel-avengers-assemble-comics.png",
+        "descrip": "Steve Rogers se somete a un experimento que lo transforma en el súper soldado Captain America durante la Segunda Guerra Mundial."
+    },
+    {
+        "id": "0005",
+        "nombre": "Thor",
+        "fecha": "1962-08-01",
+        "imagen": "https://w7.pngwing.com/pngs/463/81/png-transparent-captain-america-thor-black-panther-avengers-marvel-comics-thor-comics-avengers-superhero.png",
+        "descrip": "Thor, el dios del trueno, desciende a la Tierra y protege a la humanidad con su poderoso martillo Mjolnir."
+    },
+    {
+        "id": "0006",
+        "nombre": "Hulk",
+        "fecha": "1962-05-01",
+        "imagen": "https://w7.pngwing.com/pngs/756/406/png-transparent-hulk-comic-book-marvel-comics-halkas-comic-comics-avengers-superhero.png",
+        "descrip": "Bruce Banner, tras una explosión de radiación gamma, se transforma en Hulk, una criatura con una fuerza descomunal."
+    },
+    {
+        "id": "0007",
+        "nombre": "Doctor Strange",
+        "fecha": "1963-07-01",
+        "imagen": "https://static.wikia.nocookie.net/vsbattles/images/d/d0/Dr_strange_by_joeyvazquez-dbdnuf1.png/revision/latest?cb=20220212222012",
+        "descrip": "El neurocirujano Stephen Strange se convierte en el Hechicero Supremo, protegiendo al mundo de amenazas místicas."
+    },
+    {
+        "id": "0008",
+        "nombre": "Black Panther",
+        "fecha": "1966-07-01",
+        "imagen": "https://static.tvtropes.org/pmwiki/pub/images/black_panther_comics.png",
+        "descrip": "T'Challa, rey de Wakanda, se convierte en Black Panther, el protector de su nación con habilidades mejoradas."
+    },
+    {
+        "id": "0009",
+        "nombre": "Ant-Man",
+        "fecha": "1962-09-01",
+        "imagen": "https://i.pinimg.com/736x/96/68/e4/9668e4f406a4cd584a350a43582b6765.jpg",
+        "descrip": "Scott Lang utiliza un traje que le permite reducir su tamaño y aumentar su fuerza como el superhéroe Ant-Man."
+    },
+    {
+        "id": "0010",
+        "nombre": "Captain Marvel",
+        "fecha": "1968-03-01",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtkOlhD6ECFbcsyiox_aiqRBm1UzP-IHEueg&usqp=CAU",
+        "descrip": "Carol Danvers, tras adquirir poderes cósmicos, se convierte en la poderosa Captain Marvel, defensora de la Tierra."
+    },
+    {
+        "id": "0011",
+        "nombre": "Wolverine",
+        "fecha": "1974-10-01",
+        "imagen": "https://c0.klipartz.com/pngpicture/389/897/gratis-png-marvel-wolverine-illustration-wolverine-iron-man-spider-man-thor-marvel-comics-maravilla-thumbnail.png",
+        "descrip": "Logan, conocido como Wolverine, es un mutante con garras retráctiles y habilidades regenerativas."
+    },
+    {
+        "id": "0012",
+        "nombre": "Scarlet Witch",
+        "fecha": "1964-03-01",
+        "imagen": "https://static.wikia.nocookie.net/marveldatabase/images/8/85/Scarlet_Witch_Vol_3_1_Dauterman_Second_Printing_Variant.jpg/revision/latest?cb=20220914160152",
+        "descrip": "Wanda Maximoff, también conocida como Scarlet Witch, posee habilidades místicas y manipulación de la realidad."
+    },
+    {
+        "id": "0013",
+        "nombre": "Vision",
+        "fecha": "1968-10-01",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw_vGYM7nUJpaGW9Exw6iDyDO2QnOxdUFSwQ&usqp=CAU",
+        "descrip": "Vision, creado artificialmente, es un sintezoide con poderes sobrehumanos y una visión única del mundo."
+    },
+    {
+        "id": "0014",
+        "nombre": "Falcon",
+        "fecha": "1969-09-01",
+        "imagen": "https://i.pinimg.com/736x/e9/54/97/e954975a5379bdb0a5489bb15c7ebcf2.jpg",
+        "descrip": "Sam Wilson, alias Falcon, utiliza un traje alado para luchar contra el crimen y es un aliado cercano de Captain America."
+    },
+    {
+        "id": "0015",
+        "nombre": "Doctor Octopus",
+        "fecha": "1963-07-01",
+        "imagen": "https://static.wikia.nocookie.net/marvel/images/0/03/Octopus_vs_Spider.jpg/revision/latest?cb=20110202214458&path-prefix=es",
+        "descrip": "El Dr. Otto Octavius, conocido como Doctor Octopus, es un villano con tentáculos mecánicos que le otorgan fuerza y agilidad mejoradas."
+    }
+    
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "nombre": "Superman",
+        "fecha": "1938-06-01",
+        "imagen": "",
+        "descrip": "Kal-El, el último hijo de Krypton, posee habilidades sobrehumanas y usa sus poderes para proteger la Tierra como Superman."
+    },
+    {
+        "nombre": "Batman",
+        "fecha": "1939-05-01",
+        "imagen": "",
+        "descrip": "Bruce Wayne, traumatizado por el asesinato de sus padres, se convierte en Batman para luchar contra el crimen en Gotham City."
+    },
+    {
+        "nombre": "Wonder Woman",
+        "fecha": "1941-12-01",
+        "imagen": "",
+        "descrip": "Diana Prince, princesa de las Amazonas, utiliza sus habilidades divinas para luchar por la justicia como Wonder Woman."
+    },
+    {
+        "nombre": "The Flash",
+        "fecha": "1940-01-01",
+        "imagen": "",
+        "descrip": "Barry Allen, tras ser alcanzado por un rayo, obtiene velocidad sobrehumana y se convierte en el héroe conocido como The Flash."
+    },
+    {
+        "nombre": "Aquaman",
+        "fecha": "1941-11-01",
+        "imagen": "",
+        "descrip": "Arthur Curry, mitad humano y mitad atlante, gobierna Atlantis y protege los océanos como Aquaman."
+    },
+    {
+        "nombre": "Green Lantern",
+        "fecha": "1940-07-01",
+        "imagen": "",
+        "descrip": "Portadores del anillo de poder Green Lantern, miembros de la Linterna Verde, protegen el universo contra amenazas cósmicas."
+    },
+    {
+        "nombre": "Cyborg",
+        "fecha": "1980-07-01",
+        "imagen": "",
+        "descrip": "Victor Stone, tras un accidente, es reconstruido con tecnología alienígena y se convierte en el héroe cibernético Cyborg."
+    },
+    {
+        "nombre": "Green Arrow",
+        "fecha": "1941-11-01",
+        "imagen": "",
+        "descrip": "Oliver Queen, experto arquero y luchador por la justicia, es conocido como Green Arrow."
+    },
+    {
+        "nombre": "Shazam",
+        "fecha": "1939-02-01",
+        "imagen": "",
+        "descrip": "Billy Batson, al pronunciar la palabra 'Shazam', se transforma en un poderoso héroe con habilidades místicas."
+    },
+    {
+        "nombre": "Martian Manhunter",
+        "fecha": "1955-11-01",
+        "imagen": "",
+        "descrip": "J'onn J'onzz, último marciano, utiliza sus habilidades telepáticas y físicas para proteger la Tierra como Martian Manhunter."
+    },
+    {
+        "nombre": "Batwoman",
+        "fecha": "1956-03-01",
+        "imagen": "",
+        "descrip": "Kate Kane, prima de Bruce Wayne, asume el manto de Batwoman y lucha contra el crimen en Gotham City."
+    },
+    {
+        "nombre": "Hawkgirl",
+        "fecha": "1940-11-01",
+        "imagen": "",
+        "descrip": "Shiera Sanders, como Hawkgirl, posee alas y habilidades regenerativas gracias a su conexión con el dios egipcio Horus."
+    },
+    {
+        "nombre": "Zatanna",
+        "fecha": "1964-11-01",
+        "imagen": "",
+        "descrip": "Zatanna Zatara, maestra de las artes místicas, utiliza hechizos y magia para luchar contra el mal."
+    },
+    {
+        "nombre": "Red Tornado",
+        "fecha": "1968-05-01",
+        "imagen": "",
+        "descrip": "Red Tornado, androide con habilidades elementales, lucha contra las amenazas sobrenaturales y tecnológicas."
+    },
+    {
+        "nombre": "Nightwing",
+        "fecha": "1963-07-01",
+        "imagen": "",
+        "descrip": "Dick Grayson"
+    }    
+]

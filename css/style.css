@@ -1,0 +1,60 @@
+:root{
+
+    --bg-body: rgb(245, 235, 235); 
+    --bg-header: black;
+    --bg-main: blue;
+    --bg-footer: red;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--bg-body);
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background: var(--bg-header);
+}
+
+main{
+    width: 100%;
+    padding: 30px;
+}
+
+section{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.cardMarvel{
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    justify-items: center;
+ 
+    
+}
+
+.imagenCard{
+   max-width: 250px;
+   max-height: 300px;
+
+   width: auto;
+   height: auto; 
+
+   grid-column: 1/-1;
+}
+
