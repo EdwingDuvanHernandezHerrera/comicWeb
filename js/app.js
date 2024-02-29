@@ -1,17 +1,42 @@
 const sectionMarvel = document.querySelector(".marvelStudios");
+const sectionDC = document.querySelector(".dcComics");
+const mostrarMarvel = document.querySelector(".mostrarMarvel");
+const mostrarDC = document.querySelector(".mostrarDC");
 
 let heroesMarvel = [];
-document.addEventListener('DOMContentLoaded', async (e) => {
+let heroesDC = [];
+// const heroesTodos = [...heroesMarvel, ...mostrarDC];
+
+mostrarMarvel.addEventListener("click", async (e) => {
     heroesMarvel = await cargarDatosMarvel();
-    generarCardsMarvel();
+    limpiarCards(sectionMarvel);
+    limpiarCards(sectionDC);
+    generarCards(sectionMarvel, heroesMarvel);
 
 })
 
-function generarCardsMarvel(){
+mostrarDC.addEventListener("click", async (e) => {
+    heroesDC = await cargarDatosDC();
+    limpiarCards(sectionDC);
+    limpiarCards(sectionMarvel);
+    generarCards(sectionDC, heroesDC);
 
-    heroesMarvel.forEach(heroe => {
+})
+
+document.addEventListener('DOMContentLoaded', async (e) => {
+    heroesMarvel = await cargarDatosMarvel();
+    heroesDC = await cargarDatosDC();
+    generarCards(sectionMarvel, heroesMarvel);
+    generarCards(sectionDC, heroesDC);
+})
+
+
+
+function generarCards(sectionHeroes, heroes){
+
+    heroes.forEach(heroe => {
         const card = document.createElement("div");
-        card.className = "cardMarvel";
+        card.className = "card";
 
         const tituloCard = document.createElement("h4");
         tituloCard.textContent = heroe.nombre;
@@ -21,25 +46,40 @@ function generarCardsMarvel(){
         imgCard.className = "imagenCard"
 
         const botonCard = document.createElement("button");
-        botonCard.textContent = "Ver";
+        botonCard.textContent = "Más información";
         botonCard.className = "botonVerMas";
 
         card.appendChild(imgCard);
         card.appendChild(tituloCard);
         card.appendChild(botonCard);
-        sectionMarvel.appendChild(card);
+        sectionHeroes.appendChild(card);
     })
 
+}
+
+function limpiarCards(sectionCard){
+    while(sectionCard.firstChild){
+        sectionCard.removeChild(sectionCard.firstChild);
+    }
 }
 
 
 async function cargarMarvel(){
     const response = await fetch("../storage/data/heroesMarvel.json");
-    heroesMarverl = await response.json();
-    generarCardsMarvel();
+    heroesMarvel = await response.json();
+    generarCards(sectionMarvel, heroesMarvel);
 }
 
+async function cargarDC(){
+    const response = await fetch("../storage/data/heroesMarvel.json");
+    heroesDC = await response.json();
+    generarCards(sectionDC, heroesDC);
+}
 
 async function cargarDatosMarvel(){
     return await fetch("../storage/data/heroesMarvel.json").then(response => response.json());
+}
+
+async function cargarDatosDC(){
+    return await fetch("../storage/data/heroesDc.json").then(response => response.json());
 }
