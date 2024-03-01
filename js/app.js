@@ -87,13 +87,13 @@ function agregarElementos(element){
 
 
 async function cargarMarvel(){
-    const response = await fetch("../storage/data/heroesMarvel.json");
+    const response = await fetch("storage/data/heroesMarvel.json");
     heroesMarvel = await response.json();
     generarCards(sectionMarvel, heroesMarvel);
 }
 
 async function cargarDC(){
-    const response = await fetch("../storage/data/heroesMarvel.json");
+    const response = await fetch("storage/data/heroesMarvel.json");
     heroesDC = await response.json();
     generarCards(sectionDC, heroesDC);
 }

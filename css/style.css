@@ -46,6 +46,10 @@ header .mostrarDC:hover{
     box-shadow: 1px 1px 5px rgb(56, 199, 243);
 }
 
+header .filtrar{
+    justify-self: end;
+}
+
 main{
     width: 100%;
     padding: 30px;
