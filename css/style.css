@@ -1,27 +1,49 @@
 :root{
 
-    --bg-body: rgb(245, 235, 235); 
-    --bg-header: black;
+    --bg-header: rgba(252, 249, 249, 0.89); 
+    --bg-body: black;
     --bg-main: blue;
     --bg-footer: red;
 }
 
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
 body{
     background: var(--bg-body);
     width: 100%;
+    padding: 0;
+    margin: 0;
 
 }
 
 header{
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 10vh;
     background: var(--bg-header);
+    padding-left: 30px;
+    gap: 20px;
+}
+
+header button{
+    width: 10vw;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+header .mostrarMarvel:hover{
+    color:  #8911176e;
+    box-shadow: 1px 1px 10px rgb(243, 56, 56);
+}
+
+header .mostrarDC:hover{
+    color: #140b4d83;
+    box-shadow: 1px 1px 5px rgb(56, 199, 243);
 }
 
 main{
@@ -34,31 +56,109 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
+    margin: 5vh 0;
 }
 
 
 .card{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
- 
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    overflow: hidden;
+}
+
+.marvelStudios .card{
+    background-color: #8911176e;
+    box-shadow: 1px 1px 10px rgb(243, 56, 56);
+
+}
+
+.dcComics .card{
+    background-color: #140b4d83;
+    box-shadow: 1px 1px 10px rgb(56, 199, 243);
     
+
 }
 
 .imagenCard{
-    object-fit: contain;
+    object-fit: fill;
     width: 100%;
-    max-height: 330px;
+    max-height: 400px;
 
 }
 
 .botonVerMas{
     width: 100%;
-    padding: 2px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
 }
 
+.marvelStudios .botonVerMas:hover{
+    background-color: rgb(243, 182, 182);
+    color: rgb(143, 23, 23);
+}
 
+.dcComics .botonVerMas:hover{
+    background-color: rgb(182, 198, 243);
+    color: rgb(23, 35, 143);
+}
+
+.modal{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.664);
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+.modal-content{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.modal-image{
+    max-height: 400px;
+}
+
+.close{
+    grid-column: 1/-1;
+    justify-self: end;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#myModal::backdrop{
+    background-color: rgba(0, 0, 0, .55);
+}
+
+.tituloMarvel{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    color: white;
+}
+
+.tituloDc{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    color: white;
+}
+
+.ocultarTitulo{
+    display: none;
+    
+}

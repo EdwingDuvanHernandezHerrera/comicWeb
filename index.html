@@ -4,23 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script type="module" src="js/app.js" defer></script>
     <title>webComics</title>
 </head>
 <body>
     <header>
-        <button class="mostrarMarvel">Marvel</button>
-        <button class="mostrarDC">DCComics</button>
+        <button class="mostrarMarvel">Marvel Studios</button>
+        <button class="mostrarDC">DC Comics</button>
     </header>
     <main>
-        <div class="tituloMarvel"></div>
+        <div class="tituloMarvel">
+            <img src="https://e0.pxfuel.com/wallpapers/773/101/desktop-wallpaper-marvel-logo-black-marvel.jpg" class="logoMarvel" alt="">
+            <h2>SUPERHÉROES MARVEL STUDIOS</h2>
+        </div>
+        <hr class="hrMarvel">
         <section class="marvelStudios">
         </section>
+        <div class="tituloDc">
+            <img src="data:image/png;base64,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" alt="">
+            <h2>SUPERHÉROES DC CÓMICS</h2>
+        </div>
+        <hr class="hrDC">
         <section class="dcComics">         
         </section>
     </main>
     <footer>
         
     </footer>
+    <!-- Agrega este código al final del body, justo antes del cierre </body> -->
+    <dialog id="myModal" class="modal">
+        <div class="modal-content">
+            <i class='bx bxs-x-square close'></i>
+            <img id="modalImage" class="modal-image">
+            <div id="modalText" class="modal-text">
+                <h2 class="nombre"></h2>
+                <p class="descripcion"></p>
+                <h4 class="fecha"></h4>
+            </div>
+        </div>
+    </dialog>
+  
 </body>
 </html>
