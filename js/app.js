@@ -99,11 +99,11 @@ async function cargarDC(){
 }
 
 async function cargarDatosMarvel(){
-    return await fetch("../storage/data/heroesMarvel.json").then(response => response.json());
+    return await fetch("storage/data/heroesMarvel.json").then(response => response.json());
 }
 
 async function cargarDatosDC(){
-    return await fetch("../storage/data/heroesDc.json").then(response => response.json());
+    return await fetch("storage/data/heroesDc.json").then(response => response.json());
 }
 
 
